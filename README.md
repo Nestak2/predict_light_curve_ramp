@@ -1,4 +1,4 @@
-# predict_ligtht_curve_ramp
+# predict_light_curve_ramp
 
 Prediction of a star light curve behaviour with a LSTM neural network
 
