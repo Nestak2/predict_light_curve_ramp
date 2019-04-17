@@ -1,13 +1,13 @@
 # predict_ligtht_curve_ramp
 
-Prediction of a star light curve behaviour with a neural network
+Prediction of a star light curve behaviour with a LSTM neural network
 
 <img width="1200" alt="pic_github_readme" src="lc_main_star.png">
 
 <img width="1200" alt="pic_github_readme" src="prediction_lc_vs_real_data.png">
 
 ## What is this code for?
-The scripts here provide neural network predictions of the behaviour of the light curve of star HD 189733 as observed by Agol et al. (2010) with the Spitzer Space Telescope. The star experiences an exoplanet transit, but its light curve is contaminated with a ramp in the flux with instrumental origin. The aim of the work is to correct for the artificial ramp in the light curve by using a neural network written in Tensorflow and Keras, that predicts the behaviour of the light curve. The neural network is not fully functional, in the sense that it learns the qualitative behaviour of the ramp, but it doesn’t provide predictions accurate enough to allow correcting it in the light curve.
+The scripts here provide neural network predictions of the behaviour of the light curve of star HD 189733 as observed by Agol et al. (2010) with the Spitzer Space Telescope. The star experiences an exoplanet transit, but its light curve is contaminated with a ramp in the flux with instrumental origin. The aim of the work is to correct for the artificial ramp in the light curve by using a Long Short Term Memory (LSTM) neural network written in Tensorflow and Keras, that predicts the behaviour of the light curve. The neural network is not fully functional, in the sense that it learns the qualitative behaviour of the ramp, but it doesn’t provide predictions accurate enough to allow correcting it in the light curve.
  
 We provide in the repository a script that
 -	creates the observed lightcurve out of the original Spitzer fits-files
