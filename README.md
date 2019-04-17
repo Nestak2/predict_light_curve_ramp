@@ -93,6 +93,8 @@ The script contains comments that explain how to use it. Have a look at the prea
 A script that loads the model saved by neural_network.py, does a prediction of a sequence of data with it and plots the prediction.
 The script contains comments that explain how to use it. Have a look at the preamble where the global variables are defined.
 
+#### Authors:
+The work was created in 2018 during an internship at the Astrophysics Group at Univeristy College London by Nestor Arsenov under the supervision of Dr. Ingo Waldmann.
 
 References:
 1.	Agol, Eric, et al. "The climate of HD 189733b from fourteen transits and eclipses measured by Spitzer." The Astrophysical Journal 721.2 (2010): 1861.
